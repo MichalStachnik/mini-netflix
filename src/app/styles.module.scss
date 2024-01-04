@@ -154,4 +154,9 @@ $color-dark: #000;
   .moviePageRatings {
     flex-direction: column;
   }
+
+  .slider li {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
