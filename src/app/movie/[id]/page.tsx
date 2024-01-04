@@ -18,7 +18,13 @@ const MoviePage = async ({ params }: MoviePageProps) => {
         Back
       </Link>
       <h2 className={styles.moviePageTitle}>{movie.Title}</h2>
-      <Image src={movie.Poster} width={400} height={600} alt={movie.Title} />
+      <Image
+        src={movie.Poster}
+        width={400}
+        height={600}
+        alt={movie.Title}
+        className={styles.moviePagePoster}
+      />
       <h4 className={styles.moviePagePlot}>{movie.Plot}</h4>
       <ul className={styles.moviePageRatings}>
         {movie.Ratings.map((rating: Rating) => (

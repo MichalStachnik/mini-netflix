@@ -145,4 +145,13 @@ $color-dark: #000;
   .header sub {
     display: none;
   }
+
+  .moviePagePoster {
+    width: 200px;
+    height: 300px;
+  }
+
+  .moviePageRatings {
+    flex-direction: column;
+  }
 }

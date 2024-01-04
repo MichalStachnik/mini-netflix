@@ -13,7 +13,7 @@ const MovieThumbnail = ({ movie }: { movie: Movie }) => {
           height={0}
           alt={movie.Title}
           className={styles.thumbnailImg}
-          sizes="10vw"
+          sizes="100vw"
         />
       </Link>
     </li>
